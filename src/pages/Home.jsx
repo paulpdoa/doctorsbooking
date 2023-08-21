@@ -1,5 +1,5 @@
 import { Download } from "../components/Download"
-import { Services } from "../components/Services"
+import { Offers } from "../components/Offers"
 import { Welcome } from "../components/Welcome"
 
 export const Home = () => {
@@ -7,7 +7,7 @@ export const Home = () => {
         <>
             <Welcome />
             <Download />
-            <Services />
+            <Offers />
         </>
     )
 }

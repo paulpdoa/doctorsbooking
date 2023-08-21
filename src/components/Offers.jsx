@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const Services = () => {
+export const Offers = () => {
 
     const [specialties,setSpecialties] = useState([
         {
@@ -66,7 +66,7 @@ export const Services = () => {
 
             <div className="grid grid-cols-4 gap-5 w-4/5 py-5">
                 { specialties?.map((specialty,key) => (
-                    <div className="shadow-xl rounded-lg p-5" key={key}>
+                    <div className="shadow-xl rounded-lg p-5 border border-gray-100" key={key}>
                         <img className="object-contain" src={specialty.photo} alt={specialty.name} />
                         <p className="text-sm text-center">{specialty.name}</p>
                     </div>
@@ -84,7 +84,7 @@ export const Services = () => {
 
             <div className="grid grid-cols-4 gap-5 w-4/5 py-5">
                 { specialties?.map((specialty,key) => (
-                    <div className="shadow-xl rounded-lg p-5" key={key}>
+                    <div className="shadow-xl rounded-lg p-5 border border-gray-100" key={key}>
                         <img className="object-contain" src={specialty.photo} alt={specialty.name} />
                         <p className="text-sm text-center">{specialty.name}</p>
                     </div>
@@ -102,7 +102,7 @@ export const Services = () => {
 
             <div className="grid grid-cols-4 gap-5 w-4/5 py-5">
                 { specialties?.map((specialty,key) => (
-                    <div className="shadow-xl rounded-lg p-5" key={key}>
+                    <div className="shadow-xl rounded-lg p-5 border border-gray-100" key={key}>
                         <img className="object-contain" src={specialty.photo} alt={specialty.name} />
                         <p className="text-sm text-center">{specialty.name}</p>
                     </div>
